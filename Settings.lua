@@ -5,14 +5,15 @@
 #										#
 #										#
 #######################################]]
+require("engine/Load");
 
 local Settings = 
 {
-
+	LoadModule = {
+	"Inventory",
+	},
 
 
 };
 
-
-require("engine/Load");
 InitGamemodeEngine(Settings);

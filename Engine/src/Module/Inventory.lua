@@ -163,5 +163,4 @@ function _ClearInventory(playerid)
 end
 ClearInventory = _ClearInventory;
 
-print("Modul: Inventory v0.1 loaded");
-return true
+print("Modul: Inventory\tv0.1\tloaded")

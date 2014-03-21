@@ -53,7 +53,6 @@ local defaulcalls = {
 	"OnPlayerChangeMagicLevel",
 };
 
-
 --### AddEvent
 --### Parameter:
 --### func = Funktion die aufgerufen werden soll.

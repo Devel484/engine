@@ -11,6 +11,8 @@ local Settings =
 {
 	LoadModule = {
 	"Inventory",
+	"Language",
+	"Scale",
 	},
 
 

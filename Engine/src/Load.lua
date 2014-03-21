@@ -6,6 +6,7 @@ function InitGamemodeEngine(Setting)
 	require("engine/Functions/handler_functions");
 	require("engine/Functions/timer_functions");
 	require("engine/Functions/gui_functions");
+	RegisterHandler("OnServerStart");
 	for k,v in pairs(Setting.LoadModule) do
 		LoadModule(v);
 	end
